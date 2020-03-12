@@ -39,7 +39,6 @@ end
 def play(tictactoe)
   turn = 0
     while turn < 10
-    puts "X"
     turn += 1
   end
 end
