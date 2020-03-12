@@ -36,7 +36,7 @@ def turn(board)
 end
 
 # Define your play method below
-def play(tictactoe)
+def play(turn)
   turn = 0
     while turn < 10
     turn += 1
