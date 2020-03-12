@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  turn
+  turn(board)
   until board = 9
   board += 1
   end
