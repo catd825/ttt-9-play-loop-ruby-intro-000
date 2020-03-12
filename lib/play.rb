@@ -37,7 +37,6 @@ end
 
 # Define your play method below
 def play
-  turn
   while turn < 10
   turn += 1
   end
