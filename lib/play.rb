@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  turn(board) = gets.strip
+  turn(board).to_i
   until board == 9
   board += 1
   end
