@@ -8,6 +8,6 @@ describe '#play' do
 
     play(board)
 
-    expect(board).to eq(["X","X","X","X","X","X","X","X","X"])
+    expect(board).to eq(["X","X","X","X","X","X","X","X","X",])
   end
 end
