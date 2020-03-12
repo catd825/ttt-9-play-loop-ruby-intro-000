@@ -37,8 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  gets.chomp
-  until board = ["X","X","X","X","X","X","X","X","X",]
+  until board = ["X","X","X","X","X","X","X","X","X"]
   board += 1
   end
 end
